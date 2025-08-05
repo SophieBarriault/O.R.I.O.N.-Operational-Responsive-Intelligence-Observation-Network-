@@ -15,11 +15,9 @@ Maybe you can mention me or this repo in the acknowledgements too
 A J.A.R.V.I.S.-inspired AI assistant for smart task automation and conversational support. 
 
 
-[![Contributors](https://img.shields.io/github/contributors/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
+[![Contributors][https://github.com/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
 
-)](https://github.com/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
-
-/graphs/contributors)
+/graphs/contributors](https://github.com/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-/graphs/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
 
 )](https://github.com/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
