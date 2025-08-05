@@ -15,9 +15,21 @@ Maybe you can mention me or this repo in the acknowledgements too
 A J.A.R.V.I.S.-inspired AI assistant for smart task automation and conversational support. 
 
 
-[![Contributors](https://img.shields.io/github/contributors/SophieBarriault/Dispenser)](https://github.com/SophieBarriault/Dispenser/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/SophieBarriault/Dispenser)](https://github.com/SophieBarriault/Dispenser)
-[![Forks](https://img.shields.io/github/forks/SophieBarriault/Dispenser)](https://github.com/SophieBarriault/Dispenser/network/members)
+[![Contributors](https://img.shields.io/github/contributors/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
+
+)](https://github.com/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
+
+/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
+
+)](https://github.com/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
+
+)
+[![Forks](https://img.shields.io/github/forks/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
+
+)](https://github.com/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
+
+/network/members)
 [![Stars](https://img.shields.io/github/stars/SophieBarriault/Dispenser)](https://github.com/SophieBarriault/Dispenser/stargazers)
 [![Issues](https://img.shields.io/github/issues/SophieBarriault/Dispenser)](https://github.com/SophieBarriault/Dispenser/issues)
 [![License](https://img.shields.io/github/license/SophieBarriault/Dispenser.svg)](https://github.com/SophieBarriault/Dispenser/blob/main/LICENSE)
