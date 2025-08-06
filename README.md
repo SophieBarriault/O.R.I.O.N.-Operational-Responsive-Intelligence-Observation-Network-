@@ -9,7 +9,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 <div align="center">
 
 
-![Logo](assets/Hardware_Image_1.png)
+![Logo](assets/ORION.gif)
 
 # O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network- 
 
