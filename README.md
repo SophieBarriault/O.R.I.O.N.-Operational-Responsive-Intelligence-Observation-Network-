@@ -79,26 +79,38 @@ Click to watch the demo here!
 
 ### 👾 Tech Stack
 
-- **Python** – Core programming language for the application
+**Voice Interface:** 
 
-- **Toga** – GUI framework for building cross-platform desktop and mobile apps 
-- **Buildozer** - GUI framework for both Android and IOS compatibility 
+ - SpeechRecognition – For real-time voice input and speech-to-text conversion.
 
-- **OpenCV** – Real-time image processing and integration with camera for pill verification
+ - PyAudio – Microphone audio capture.
 
-- **Tesseract OCR** – Optical Character Recognition for extracting text from prescriptions
+ - pyttsx3 – Offline text-to-speech (TTS) engine for natural voice responses.
 
-- **spaCy** – Custom Named Entity Recognition (NER) model to extract dosage/frequency info
+**Natural Language Processing (NLP):** 
 
-- **YOLOv8** – Object detection model to monitor pill intake and hand movement
+ - Hugging Face Transformers – For hosting and interacting with LLMs (e.g., mistralai/Mistral-7B-Instruct-v0.1).
 
-- **Flask** – Lightweight server to handle requests between the app and ML models
+ - huggingface_hub.InferenceClient – Lightweight client for querying models without GPU dependency. 
+ - (Previously supported: OpenAI GPT-4, now replaced for quota-free operation.)
 
-- **PySerial** – Communication between the Python app and the Arduino board
+**Graphical User Interface:** 
 
-- **Arduino** – Controls pill dispensing mechanism (via servo motors, etc.)
+ - tkinter – Built-in Python GUI toolkit for a lightweight debug console and visual feedback.
 
-- **Git & GitHub** – Version control and project collaboration
+ - Pillow (PIL) – For loading and animating GIFs inside the UI.
+
+**Concurrency** 
+
+ - threading – To keep speech listening responsive while updating the GUI.
+
+**Optional Enhancements:** 
+
+ - Custom animated GIFs – For a dynamic, sci-fi-inspired UI aesthetic.
+
+ - Wake word detection – Keyword-triggered listening loop (e.g., "Orion").
+
+
 
 ---
 
