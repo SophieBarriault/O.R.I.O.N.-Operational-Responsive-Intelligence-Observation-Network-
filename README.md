@@ -53,47 +53,17 @@ A J.A.R.V.I.S.-inspired AI assistant for smart task automation and conversationa
 
 ## 🌟 About the Project
 
-O.R.I.O.N. is an AI-powered assistant inspired by J.A.R.V.I.S. from the Marvel Cinematic Universe — a fictional AI known for its intelligence, conversational ability, and seamless control over complex systems. While not quite at Tony Stark levels (yet), this project aims to bring a real-world version of that vision to life by integrating modern AI tools, natural language processing, and task automation into a single intelligent system.
+O.R.I.O.N. is a fully voice-activated desktop AI assistant designed to create a seamless and natural human-computer interaction experience through speech recognition, real-time response generation using large language models, and visual feedback via a graphical user interface. The project integrates speech-to-text, text-to-speech, and Hugging Face’s transformer-based NLP models to simulate an intelligent, responsive, and personalized AI system inspired by fictional virtual assistants like J.A.R.V.I.S. from Iron Man, MCU.
 
-Built with Python and powered by tools like large language models, speech recognition, and customizable workflows, O.R.I.O.N. is designed to assist with real-time tasks, manage information, and act as a voice-activated, personalized digital assistant.
+ - **The objective of O.R.I.O.N. is to:** 
 
-Whether you're using it to control your desktop, retrieve web data, automate coding tasks, or just have a natural conversation, O.R.I.O.N. brings a piece of sci-fi inspiration into practical, everyday AI.
-To create an accessible, intelligent system that ensures patients take the correct medications at the correct times — reducing errors, improving adherence, and offering peace of mind for caregivers and family members. 
+ - Develop a continuously running desktop assistant that can detect a wake word ("Orion"), listen for commands, and generate meaningful, human-like responses.
 
-**Goal:**
-O.R.I.O.N. is an AI-powered assistant inspired by J.A.R.V.I.S. from the Marvel Cinematic Universe — a fictional AI known for its intelligence, conversational ability, and seamless control over complex systems. While not quite at Tony Stark levels (yet), this project aims to bring a real-world version of that vision to life by integrating modern AI tools, natural language processing, and task automation into a single intelligent system.
+  - Leverage modern NLP models (e.g., Mistral-7B) via Hugging Face for lightweight and efficient LLM integration without relying on OpenAI's API.
 
-Built with Python and powered by tools like large language models, speech recognition, and customizable workflows, O.R.I.O.N. is designed to assist with real-time tasks, manage information, and act as a voice-activated, personalized digital assistant.
+ - Provide clear visual feedback through a debug console and dynamic animated elements to enhance accessibility and user interaction.
 
-Whether you're using it to control your desktop, retrieve web data, automate coding tasks, or just have a natural conversation, O.R.I.O.N. brings a piece of sci-fi inspiration into practical, everyday AI.
-To create an accessible, intelligent system that ensures patients take the correct medications at the correct times — reducing errors, improving adherence, and offering peace of mind for caregivers and family members. 
-
-
-
-**Core Features:**
-
- - Image recognition model to verify whether medication has been taken correctly.
-
- - OCR + NLP (Named Entity Recognition) to extract dosage instructions from prescription labels.
-
- - Arduino-controlled dispensing system triggered by AI verification and scheduled reminders.
-
- - Mobile + Desktop interface (via Toga framework) for caregiver monitoring and remote updates.
-
- - Video evidence recording for accountability and patient monitoring. 
-
-
-
-**Recognition:**  
-
- - Filed for a provisional patent for the design and idea December 2024 
-
- - Selected for the Massachusetts Science & Engineering Fair (MSEF) Regional Round
-
- - Advanced to the MSEF State Level Competition as a Finalist
-
- - Praised for its real-world impact, interdisciplinary approach, and scalable potential
-
+ - Create a customizable foundation for further expansion into more advanced AI features, such as system control, file management, or smart home integration.
 
 
 ---
