@@ -116,32 +116,31 @@ Click to watch the demo here!
 
 ### 🎯 Features
 
-- **Automated Pill Dispensing** 
-  Dispenses the correct medication at the right time using an Arduino-controlled mechanism, reducing the risk of missed or incorrect doses.
+**Voice-Activated Wake Word:**
+ - Automatically activates when you say "Orion", no buttons needed.
 
-- **Real-Time Pill Intake Monitoring** 
-  Utilizes a YOLOv5-based image recognition system to track the sequence: pill present → pill taken → hand empty — confirming successful medication intake.
+**Speech Recognition:** 
+ - Converts your spoken words into text using SpeechRecognition and PyAudio.
 
-- **Custom OCR Processing** 
-  Uses Tesseract OCR to extract medication names, dosages, and instructions from images of prescriptions or labels.
+**Conversational AI:** 
+ - Processes questions and commands using Hugging Face’s Mistral-7B-Instruct model (fully customizable).
 
-- **Medical NER Model** 
-  A custom-trained spaCy Named Entity Recognition (NER) model processes OCR output to identify key medical information like dosage frequency and medication schedules.
+**Text-to-Speech Response:** 
+ - ORION responds with a natural-sounding voice using pyttsx3.
 
-- **Cross-Platform Interface (Toga + Buildozer)** 
-  Built using the Toga framework for both desktop and mobile (Android and IOS) platforms, allowing caregivers and users to interact with the system easily.
+**Dynamic UI Console:** 
+ - Displays real-time updates, user inputs, and responses with animated GIF integration via tkinter.
 
-- **Flask-Based Communication** 
-  A lightweight Flask server connects the app to backend ML models, ensuring fast and reliable processing of user input and image recognition results.
+**Continuous Listening Loop:** 
+ - After responding, ORION returns to standby and waits for the next command.
 
-- **Emergency Alert System** 
-  If a user fails to take their medication within a set time frame, the system plays an audio alert and notifies a connected caregiver.
+**Customizable Wake Word & Voice Settings:** 
+ - Easily change the assistant’s wake word, voice, rate, and language settings in the source code.
 
-- **Time-Based Triggers** 
-  The application runs on a schedule, automatically activating the camera and dispenser based on predefined medication times.
+**Privacy-First:** 
+ - No user data is stored by default. All processing is ephemeral unless logging is added intentionally.
 
-- **PDF Report Generation** 
-  Extracted text from prescriptions is automatically saved and compiled into a downloadable PDF for easy recordkeeping and sharing with healthcare providers.
+
 
 
 --- 
