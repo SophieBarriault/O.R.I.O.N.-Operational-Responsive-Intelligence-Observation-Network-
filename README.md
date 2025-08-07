@@ -165,13 +165,13 @@ This project uses a variety of modules and libraries
 Clone the project
 
 ```bash
-  git clone https://github.com/SophieBarriault/Dispenser.git 
+  git clone https://github.com/SophieBarriault/O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-.git 
 ```
 
 Go to the project directory
 
 ```bash
-  cd Dispenser 
+  cd O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network-
 ```
 
 Install dependencies
@@ -186,16 +186,9 @@ Install dependencies
 To deploy the mobile application simulation software, run: 
 
 ```bash 
-  cd Dispenser/App/andriod_app
-  python app.py 
+  cd O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network- 
+  main.py 
 ```
-
-To deploy the medication dispenser software, run: 
-
-```bash 
-  cd Dispenser/App
-  python App_For_Monitering.py 
-``` 
 
 <!-- FAQ -->
 ## :grey_question: FAQ
