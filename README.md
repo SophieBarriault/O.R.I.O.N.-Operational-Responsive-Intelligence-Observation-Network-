@@ -187,37 +187,34 @@ To deploy the mobile application simulation software, run:
 
 ```bash 
   cd O.R.I.O.N.-Operational-Responsive-Intelligence-Observation-Network- 
-  main.py 
+  python main.py 
 ```
 
 <!-- FAQ -->
 ## :grey_question: FAQ
 
-- **Who is the project designed for?** 
+- **What is O.R.I.O.N.?** 
 
-  + It’s primarily designed for elderly patients, individuals with memory challenges, high-risk patients, such as those recovering from an addition, under-staffed healthcare facilities, and caretakers who need remote monitoring tools for medication adherence/patients who live alone.
+  + O.R.I.O.N. (Operational Responsive Intelligent Omni-Assistant Nexus) is a Python-based desktop voice assistant inspired by J.A.R.V.I.S. It combines voice activation, natural language understanding via Hugging Face models, and a responsive GUI to perform tasks and respond intelligently to user queries. 
 
-- **How is medication intake verified?** 
+- **What can O.R.I.O.N. do?** 
 
-  + The image model uses a 3-step detection process:
+  + O.R.I.O.N. can:
 
-    1. Detects the presence of a pill
+   - Listen for a wake word (“Orion”)
 
-    2. Checks if it’s picked up
+   - Understand natural language commands
 
-    3. Confirms the hand is empty (pill was consumed). 
-      If not, an alert is triggered. 
+   - Respond verbally using TTS (text-to-speech)
+
+   - Display a real-time debug console with an animated UI
+
+   - Answer questions, tell jokes, and more using an LLM from Hugging Face
 
 
-- **How does the dispenser work?** 
+- **Does O.R.I.O.N. store any of my data?** 
 
-  + A built-in camera detects if a pill is taken using a YOLO image recognition model.
-
-  + OCR and NER extract dosage info from prescription labels.
-
-  + The system activates an Arduino-controlled dispenser and verifies intake.
-
-  + Caretakers can view updates via a mobile app.
+  + No, by default O.R.I.O.N. does not store voice recordings or responses. You can optionally add logging if you wish to track conversations for debugging. 
 
 
 
