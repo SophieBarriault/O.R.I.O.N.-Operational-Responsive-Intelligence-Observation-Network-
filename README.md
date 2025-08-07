@@ -199,17 +199,17 @@ To deploy the mobile application simulation software, run:
 
 - **What can O.R.I.O.N. do?** 
 
-  + O.R.I.O.N. can:
+  - O.R.I.O.N. can:
 
-   - Listen for a wake word (“Orion”)
-
-   - Understand natural language commands
-
-   - Respond verbally using TTS (text-to-speech)
-
-   - Display a real-time debug console with an animated UI
-
-   - Answer questions, tell jokes, and more using an LLM from Hugging Face
+     - Listen for a wake word (“Orion”)
+ 
+     - Understand natural language commands
+ 
+     - Respond verbally using TTS (text-to-speech)
+ 
+     - Display a real-time debug console with an animated UI
+ 
+     - Answer questions, tell jokes, and more using an LLM from Hugging Face
 
 
 - **Does O.R.I.O.N. store any of my data?** 
