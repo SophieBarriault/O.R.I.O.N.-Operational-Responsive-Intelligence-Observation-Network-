@@ -195,7 +195,7 @@ To deploy the mobile application simulation software, run:
 
 - **What is O.R.I.O.N.?** 
 
-  + O.R.I.O.N. (Operational Responsive Intelligent Omni-Assistant Nexus) is a Python-based desktop voice assistant inspired by J.A.R.V.I.S. It combines voice activation, natural language understanding via Hugging Face models, and a responsive GUI to perform tasks and respond intelligently to user queries. 
+  + O.R.I.O.N. (Operational Responsive Intelligence Observation Network) is a Python-based desktop voice assistant inspired by J.A.R.V.I.S. It combines voice activation, natural language understanding via Hugging Face models, and a responsive GUI to perform tasks and respond intelligently to user queries. 
 
 - **What can O.R.I.O.N. do?** 
 
